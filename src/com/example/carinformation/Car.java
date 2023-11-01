@@ -56,4 +56,9 @@ public class Car {
     public void sell() {
         quantity--;
     }
+
+    public String toString() {
+        return brand + " " + model + ", " + year +
+                String.format(", $%.2f", price) + ", " + color + ", qty " + quantity;
+    }
 }
