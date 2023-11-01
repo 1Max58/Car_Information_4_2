@@ -50,4 +50,10 @@ public class Car {
     public int getQuantity() {
         return quantity;
     }
+    public void delivery() {
+        quantity++;
+    }
+    public void sell() {
+        quantity--;
+    }
 }
